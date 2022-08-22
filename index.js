@@ -1,6 +1,5 @@
-const inputId = document.getElementById('input id')
-
-inputId.addEventListener('onclick', function(){
-    alert(`i was clicked`);
-});
+function addingEventListener(){
+    let input = document.getElementById("button");
+    input.addEventListener('click', function() { alert("I was clicked!")});
+}
 
